@@ -2,7 +2,8 @@
     </section><!-- ***** Counter Parallax End ***** --><!-- ***** Blog Start ***** --><!-- ***** Blog End ***** --><!-- ***** Contact Us Start ***** --><!-- ***** Contact Us End ***** --><!-- ***** Footer Start ***** --><!-- jQuery --><script src="js/jquery-2.1.0.min.js"></script><!-- Bootstrap --><script src="js/popper.js"></script><script src="js/bootstrap.min.js"></script><!-- Plugins --><script src="js/scrollreveal.min.js"></script><script src="js/waypoints.min.js"></script><script src="js/jquery.counterup.min.js"></script><script src="js/imgfix.min.js"></script><!-- Global Init --><script src="js/custom.js"></script></div><link rel="stylesheet" href="css/plugins.css"/><link rel="stylesheet" href="css/style.css"/><section id="ivafa6" class="wrapper"><div class="container py-14 py-md-16"><img src="img/微信图片_20241005224044.jpg" class="c40740"/><h2 class="mb-3">所有游戏均免费分享
       </h2><img src="img/微信截图_20241106232540.png" class="c46684"/>
       <p class="lead fs-lg mb-8">所有游戏亲测可玩 遇到任何问题可以粉丝群或微信(GameTogether1)询问 <br>
-        每周会根据粉丝要求更新你想玩的游戏 标题含NSP,XCI需PSP模拟器,含PS3需PS3模拟器<br>
+        每周会根据粉丝要求更新你想玩的游戏<br>
+        标题含NSP,XCI需PSP模拟器,含PS3需PS3模拟器,含ISO需Xbox模拟器<br>
         每款游戏基本都包含了全套DLC 支持中文 有重制版就是重制版 只支持单机 <br>
         假如你满意可以扫码打赏 一块即可 所有打赏均用于网站每周的更新与种子的维护 <br>
         感谢支持 白嫖是你的自由 打赏更显你的格局 </p>
@@ -93,7 +94,64 @@
         var textarea = document.createElement('textarea');
         textarea.value = 
             "保存到自己网盘再下载,避免下载失败\n" +
-            "迅雷网盘: https://pan.xunlei.com/s/VOJCa-x8UENHF9CpQ-xKvHEjA1?pwd=udek#\n";
+            "迅雷网盘: https://pan.xunlei.com/s/VOJCa-x8UENHF9CpQ-xKvHEjA1?pwd=udek#\n" + 
+            "夸克网盘: https://pan.quark.cn/s/330b6f3598ec";
+        textarea.rows = 6; // 设置文本框的行数
+        textarea.cols = 88; // 设置文本框的列数
+        textarea.readOnly = true; // 设置为只读
+        textarea.style.position = 'fixed'; // 固定位置
+        textarea.style.top = '50%'; // 垂直居中
+        textarea.style.left = '50%'; // 水平居中
+        textarea.style.transform = 'translate(-50%, -50%)'; // 精确居中
+        textarea.style.zIndex = '1000'; // 确保在最上层
+        textarea.style.border = '1px solid #ccc'; // 添加边框
+        textarea.style.padding = '10px'; // 添加内边距
+        textarea.style.backgroundColor = '#f9f9f9'; // 设置背景颜色
+        textarea.style.boxShadow = '0 0 10px rgba(0, 0, 0, 0.2)'; // 添加阴影
+        textarea.style.fontFamily = 'Arial, sans-serif'; // 设置字体
+        textarea.style.fontSize = '14px'; // 设置字体大小
+        textarea.style.resize = 'none'; // 禁止调整大小
+        textarea.style.outline = 'none'; // 去掉焦点边框
+
+        document.body.appendChild(textarea);
+
+        // 添加一个关闭按钮
+        var closeButton = document.createElement('button');
+        closeButton.textContent = '关闭';
+        closeButton.style.position = 'fixed';
+        closeButton.style.top = '60%'; // 稍微偏下
+        closeButton.style.left = '50%';
+        closeButton.style.transform = 'translate(-50%, -50%)';
+        closeButton.style.zIndex = '1001'; // 确保在 textarea 上方
+        closeButton.style.padding = '5px 10px';
+        closeButton.style.backgroundColor = '#ff4d4d';
+        closeButton.style.color = 'white';
+        closeButton.style.border = 'none';
+        closeButton.style.borderRadius = '5px';
+        closeButton.style.cursor = 'pointer';
+
+        closeButton.addEventListener('click', function() {
+            document.body.removeChild(textarea);
+            document.body.removeChild(closeButton);
+        });
+
+        document.body.appendChild(closeButton);
+    });
+</script>
+            <!--/.card -->
+          </div>
+          <!--/column -->
+<div class="col"><img src="https://ooo.0x0.ooo/2025/06/07/OsmHJl.jpg" class="c64044"/>
+            <div id="XBOXMNQ" class="c64569">Xbox模拟器</div>
+            <script>
+    var sectionA = document.getElementById('XBOXMNQ');
+    sectionA.addEventListener('click', function() {
+        // 创建一个可显示的 textarea 元素
+        var textarea = document.createElement('textarea');
+        textarea.value = 
+            "保存到自己网盘再下载,避免下载失败\n" +
+            "迅雷网盘: https://pan.xunlei.com/s/VOS3ksW9xllDm2Elin2lidA7A1?pwd=r6v8#\n" + 
+            "夸克网盘: https://pan.quark.cn/s/19a92898a1ad";
         textarea.rows = 6; // 设置文本框的行数
         textarea.cols = 88; // 设置文本框的列数
         textarea.readOnly = true; // 设置为只读
@@ -270,6 +328,58 @@
             "保存到自己网盘再下载,避免下载失败\n" +
             "迅雷网盘: https://pan.xunlei.com/s/VODohR0xvIs8gBK2-E0mLJs-A1?pwd=ipd9#\n" + 
             "夸克网盘: https://pan.quark.cn/s/4cde0ebb264f";
+        textarea.rows = 6; // 设置文本框的行数
+        textarea.cols = 88; // 设置文本框的列数
+        textarea.readOnly = true; // 设置为只读
+        textarea.style.position = 'fixed'; // 固定位置
+        textarea.style.top = '50%'; // 垂直居中
+        textarea.style.left = '50%'; // 水平居中
+        textarea.style.transform = 'translate(-50%, -50%)'; // 精确居中
+        textarea.style.zIndex = '1000'; // 确保在最上层
+        textarea.style.border = '1px solid #ccc'; // 添加边框
+        textarea.style.padding = '10px'; // 添加内边距
+        textarea.style.backgroundColor = '#f9f9f9'; // 设置背景颜色
+        textarea.style.boxShadow = '0 0 10px rgba(0, 0, 0, 0.2)'; // 添加阴影
+        textarea.style.fontFamily = 'Arial, sans-serif'; // 设置字体
+        textarea.style.fontSize = '14px'; // 设置字体大小
+        textarea.style.resize = 'none'; // 禁止调整大小
+        textarea.style.outline = 'none'; // 去掉焦点边框
+
+        document.body.appendChild(textarea);
+
+        // 添加一个关闭按钮
+        var closeButton = document.createElement('button');
+        closeButton.textContent = '关闭';
+        closeButton.style.position = 'fixed';
+        closeButton.style.top = '60%'; // 稍微偏下
+        closeButton.style.left = '50%';
+        closeButton.style.transform = 'translate(-50%, -50%)';
+        closeButton.style.zIndex = '1001'; // 确保在 textarea 上方
+        closeButton.style.padding = '5px 10px';
+        closeButton.style.backgroundColor = '#ff4d4d';
+        closeButton.style.color = 'white';
+        closeButton.style.border = 'none';
+        closeButton.style.borderRadius = '5px';
+        closeButton.style.cursor = 'pointer';
+
+        closeButton.addEventListener('click', function() {
+            document.body.removeChild(textarea);
+            document.body.removeChild(closeButton);
+        });
+
+        document.body.appendChild(closeButton);
+    });
+</script>
+<img src="https://ooo.0x0.ooo/2025/06/07/OsmLlg.jpg" class="c64044"/><div id="AEDFHHYJL" class="c64569">艾尔登法环：黑夜君临
+          </div><script>
+    var sectionA = document.getElementById('AEDFHHYJL');
+    sectionA.addEventListener('click', function() {
+        // 创建一个可显示的 textarea 元素
+        var textarea = document.createElement('textarea');
+        textarea.value = 
+            "保存到自己网盘再下载,避免下载失败\n" +
+            "迅雷网盘: https://pan.xunlei.com/s/VORuzRPz3r6FB4HEP1ZVjmXrA1?pwd=n56w#\n" + 
+            "夸克网盘: https://pan.quark.cn/s/5ef4b593393d";
         textarea.rows = 6; // 设置文本框的行数
         textarea.cols = 88; // 设置文本框的列数
         textarea.readOnly = true; // 设置为只读
@@ -3942,6 +4052,56 @@
 
         document.body.appendChild(closeButton);
     });
+</script>
+<img src="https://ooo.0x0.ooo/2025/06/07/OsmlPi.jpg" class="c64044"/>
+            <div id="FH" class="c64569">凤凰</div>
+<script>
+    var sectionA = document.getElementById('FH');
+    sectionA.addEventListener('click', function() {
+        var textarea = document.createElement('textarea');
+        textarea.value = "保存到自己网盘再下载,避免下载失败\n" +
+            "迅雷网盘: https://pan.xunlei.com/s/VOS2UdKEEoniwDVRolF-FdviA1?pwd=brw2#\n" + 
+            "夸克网盘: https://pan.quark.cn/s/c1e8a0263ed0";
+        textarea.rows = 6;
+        textarea.cols = 88;
+        textarea.readOnly = true;
+        textarea.style.position = 'fixed';
+        textarea.style.top = '50%';
+        textarea.style.left = '50%';
+        textarea.style.transform = 'translate(-50%, -50%)';
+        textarea.style.zIndex = '1000';
+        textarea.style.border = '1px solid #ccc';
+        textarea.style.padding = '10px';
+        textarea.style.backgroundColor = '#f9f9f9';
+        textarea.style.boxShadow = '0 0 10px rgba0, 0, 0, 0.2';
+        textarea.style.fontFamily = 'Arial, sans-serif';
+        textarea.style.fontSize = '14px';
+        textarea.style.resize = 'none';
+        textarea.style.outline = 'none';
+
+        document.body.appendChild(textarea);
+
+        var closeButton = document.createElement('button');
+        closeButton.textContent = '关闭';
+        closeButton.style.position = 'fixed';
+        closeButton.style.top = '60%';
+        closeButton.style.left = '50%';
+        closeButton.style.transform = 'translate(-50%, -50%)';
+        closeButton.style.zIndex = '1001';
+        closeButton.style.padding = '5px 10px';
+        closeButton.style.backgroundColor = '#ff4d4d';
+        closeButton.style.color = 'white';
+        closeButton.style.border = 'none';
+        closeButton.style.borderRadius = '5px';
+        closeButton.style.cursor = 'pointer';
+
+        closeButton.addEventListener('click', function() {
+            document.body.removeChild(textarea);
+            document.body.removeChild(closeButton);
+        });
+
+        document.body.appendChild(closeButton);
+    });
 </script><!--/.card --></div><!--/column --><div class="col"><img src="https://pic.imgdb.cn/item/672f7460d29ded1a8ca58501.jpg" class="c64044"/>
                 <div id="FS4" class="c64569">辐射4
                 </div>
@@ -7416,6 +7576,56 @@
 
         document.body.appendChild(closeButton);
     });
+</script>
+<img src="https://ooo.0x0.ooo/2025/06/07/OsmGTB.jpg" class="c64044"/>
+                <div id="JXJSDPX2" class="c64569">极限竞速：地平线2(ISO)</div>
+<script>
+    var sectionA = document.getElementById('JXJSDPX2');
+    sectionA.addEventListener('click', function() {
+        var textarea = document.createElement('textarea');
+        textarea.value = "保存到自己网盘再下载,避免下载失败\n" +
+            "迅雷网盘: https://pan.xunlei.com/s/VOS3mzgq_XtyD0m3Q-7hupJfA1?pwd=sd75#\n" + 
+            "夸克网盘: https://pan.quark.cn/s/5cbf82a1f546";
+        textarea.rows = 6;
+        textarea.cols = 88;
+        textarea.readOnly = true;
+        textarea.style.position = 'fixed';
+        textarea.style.top = '50%';
+        textarea.style.left = '50%';
+        textarea.style.transform = 'translate(-50%, -50%)';
+        textarea.style.zIndex = '1000';
+        textarea.style.border = '1px solid #ccc';
+        textarea.style.padding = '10px';
+        textarea.style.backgroundColor = '#f9f9f9';
+        textarea.style.boxShadow = '0 0 10px rgba0, 0, 0, 0.2';
+        textarea.style.fontFamily = 'Arial, sans-serif';
+        textarea.style.fontSize = '14px';
+        textarea.style.resize = 'none';
+        textarea.style.outline = 'none';
+
+        document.body.appendChild(textarea);
+
+        var closeButton = document.createElement('button');
+        closeButton.textContent = '关闭';
+        closeButton.style.position = 'fixed';
+        closeButton.style.top = '60%';
+        closeButton.style.left = '50%';
+        closeButton.style.transform = 'translate(-50%, -50%)';
+        closeButton.style.zIndex = '1001';
+        closeButton.style.padding = '5px 10px';
+        closeButton.style.backgroundColor = '#ff4d4d';
+        closeButton.style.color = 'white';
+        closeButton.style.border = 'none';
+        closeButton.style.borderRadius = '5px';
+        closeButton.style.cursor = 'pointer';
+
+        closeButton.addEventListener('click', function() {
+            document.body.removeChild(textarea);
+            document.body.removeChild(closeButton);
+        });
+
+        document.body.appendChild(closeButton);
+    });
 </script><!--/.card --></div><!--/column --><div class="col"><img src="https://pic.imgdb.cn/item/672f74a6d29ded1a8ca5c13c.jpg" class="c64044"/>
                 <div id="JSJH" class="c64569">僵尸计划
                 </div>
@@ -7525,6 +7735,56 @@
         var textarea = document.createElement('textarea');
         textarea.value = "保存到自己网盘再下载,避免下载失败\n" +
             "迅雷网盘: https://pan.xunlei.com/s/VOM2SrcS_S6mU2fLqM_9KY1JA1?pwd=e8ct\n";
+        textarea.rows = 6;
+        textarea.cols = 88;
+        textarea.readOnly = true;
+        textarea.style.position = 'fixed';
+        textarea.style.top = '50%';
+        textarea.style.left = '50%';
+        textarea.style.transform = 'translate(-50%, -50%)';
+        textarea.style.zIndex = '1000';
+        textarea.style.border = '1px solid #ccc';
+        textarea.style.padding = '10px';
+        textarea.style.backgroundColor = '#f9f9f9';
+        textarea.style.boxShadow = '0 0 10px rgba0, 0, 0, 0.2';
+        textarea.style.fontFamily = 'Arial, sans-serif';
+        textarea.style.fontSize = '14px';
+        textarea.style.resize = 'none';
+        textarea.style.outline = 'none';
+
+        document.body.appendChild(textarea);
+
+        var closeButton = document.createElement('button');
+        closeButton.textContent = '关闭';
+        closeButton.style.position = 'fixed';
+        closeButton.style.top = '60%';
+        closeButton.style.left = '50%';
+        closeButton.style.transform = 'translate(-50%, -50%)';
+        closeButton.style.zIndex = '1001';
+        closeButton.style.padding = '5px 10px';
+        closeButton.style.backgroundColor = '#ff4d4d';
+        closeButton.style.color = 'white';
+        closeButton.style.border = 'none';
+        closeButton.style.borderRadius = '5px';
+        closeButton.style.cursor = 'pointer';
+
+        closeButton.addEventListener('click', function() {
+            document.body.removeChild(textarea);
+            document.body.removeChild(closeButton);
+        });
+
+        document.body.appendChild(closeButton);
+    });
+</script>
+<img src="https://ooo.0x0.ooo/2025/06/07/OsmScK.jpg" class="c64044"/>
+                <div id="JJDJR" class="c64569">进击的巨人</div>
+<script>
+    var sectionA = document.getElementById('JJDJR');
+    sectionA.addEventListener('click', function() {
+        var textarea = document.createElement('textarea');
+        textarea.value = "保存到自己网盘再下载,避免下载失败\n" +
+            "迅雷网盘: https://pan.xunlei.com/s/VORv0wah-n23zT3q-nbpxiUJA1?pwd=baze#\n" + 
+            "夸克网盘: https://pan.quark.cn/s/39b89ec0536c";
         textarea.rows = 6;
         textarea.cols = 88;
         textarea.readOnly = true;
@@ -9679,6 +9939,56 @@
         textarea.value = "保存到自己网盘再下载,避免下载失败\n" +
             "迅雷网盘: https://pan.xunlei.com/s/VOPcM24k1kDaZV5_MpPM6Z6LA1?pwd=m3tw#\n" + 
             "夸克网盘: https://pan.quark.cn/s/07b5d7b15d6d";
+        textarea.rows = 6;
+        textarea.cols = 88;
+        textarea.readOnly = true;
+        textarea.style.position = 'fixed';
+        textarea.style.top = '50%';
+        textarea.style.left = '50%';
+        textarea.style.transform = 'translate(-50%, -50%)';
+        textarea.style.zIndex = '1000';
+        textarea.style.border = '1px solid #ccc';
+        textarea.style.padding = '10px';
+        textarea.style.backgroundColor = '#f9f9f9';
+        textarea.style.boxShadow = '0 0 10px rgba0, 0, 0, 0.2';
+        textarea.style.fontFamily = 'Arial, sans-serif';
+        textarea.style.fontSize = '14px';
+        textarea.style.resize = 'none';
+        textarea.style.outline = 'none';
+
+        document.body.appendChild(textarea);
+
+        var closeButton = document.createElement('button');
+        closeButton.textContent = '关闭';
+        closeButton.style.position = 'fixed';
+        closeButton.style.top = '60%';
+        closeButton.style.left = '50%';
+        closeButton.style.transform = 'translate(-50%, -50%)';
+        closeButton.style.zIndex = '1001';
+        closeButton.style.padding = '5px 10px';
+        closeButton.style.backgroundColor = '#ff4d4d';
+        closeButton.style.color = 'white';
+        closeButton.style.border = 'none';
+        closeButton.style.borderRadius = '5px';
+        closeButton.style.cursor = 'pointer';
+
+        closeButton.addEventListener('click', function() {
+            document.body.removeChild(textarea);
+            document.body.removeChild(closeButton);
+        });
+
+        document.body.appendChild(closeButton);
+    });
+</script>
+<img src="https://ooo.0x0.ooo/2025/06/07/OsmcOa.jpg" class="c64044"/>
+                <div id="MTZDXB" class="c64569">煤炭镇的小白</div>
+<script>
+    var sectionA = document.getElementById('MTZDXB');
+    sectionA.addEventListener('click', function() {
+        var textarea = document.createElement('textarea');
+        textarea.value = "保存到自己网盘再下载,避免下载失败\n" +
+            "迅雷网盘: https://pan.xunlei.com/s/VORwBpUDha8ZElSnjifmP1wNA1?pwd=hy6z#\n" + 
+            "夸克网盘: https://pan.quark.cn/s/e657883a689f";
         textarea.rows = 6;
         textarea.cols = 88;
         textarea.readOnly = true;
@@ -11875,6 +12185,56 @@
         textarea.value = "保存到自己网盘再下载,避免下载失败\n" +
             "迅雷网盘: https://pan.xunlei.com/s/VOG3UtInb_iKs1kdLh75vk5RA1?pwd=6sig\n" + 
             "夸克网盘: https://pan.quark.cn/s/00bd01a44170";
+        textarea.rows = 6;
+        textarea.cols = 88;
+        textarea.readOnly = true;
+        textarea.style.position = 'fixed';
+        textarea.style.top = '50%';
+        textarea.style.left = '50%';
+        textarea.style.transform = 'translate(-50%, -50%)';
+        textarea.style.zIndex = '1000';
+        textarea.style.border = '1px solid #ccc';
+        textarea.style.padding = '10px';
+        textarea.style.backgroundColor = '#f9f9f9';
+        textarea.style.boxShadow = '0 0 10px rgba0, 0, 0, 0.2';
+        textarea.style.fontFamily = 'Arial, sans-serif';
+        textarea.style.fontSize = '14px';
+        textarea.style.resize = 'none';
+        textarea.style.outline = 'none';
+
+        document.body.appendChild(textarea);
+
+        var closeButton = document.createElement('button');
+        closeButton.textContent = '关闭';
+        closeButton.style.position = 'fixed';
+        closeButton.style.top = '60%';
+        closeButton.style.left = '50%';
+        closeButton.style.transform = 'translate(-50%, -50%)';
+        closeButton.style.zIndex = '1001';
+        closeButton.style.padding = '5px 10px';
+        closeButton.style.backgroundColor = '#ff4d4d';
+        closeButton.style.color = 'white';
+        closeButton.style.border = 'none';
+        closeButton.style.borderRadius = '5px';
+        closeButton.style.cursor = 'pointer';
+
+        closeButton.addEventListener('click', function() {
+            document.body.removeChild(textarea);
+            document.body.removeChild(closeButton);
+        });
+
+        document.body.appendChild(closeButton);
+    });
+</script>
+<img src="https://ooo.0x0.ooo/2025/06/07/Osmd7S.jpg" class="c64044"/>
+                <div id="QMQS" class="c64569"> 秋末求生</div>
+<script>
+    var sectionA = document.getElementById('QMQS');
+    sectionA.addEventListener('click', function() {
+        var textarea = document.createElement('textarea');
+        textarea.value = "保存到自己网盘再下载,避免下载失败\n" +
+            "迅雷网盘: https://pan.xunlei.com/s/VORvkgLDxMffi_YbUZasdbfJA1?pwd=8qen#\n" + 
+            "夸克网盘: https://pan.quark.cn/s/6f6535db56b2";
         textarea.rows = 6;
         textarea.cols = 88;
         textarea.readOnly = true;
@@ -16475,7 +16835,58 @@
 
         document.body.appendChild(closeButton);
     });
-</script><!--/.card --></div><!--/column --></div><!-- /.row --><!--/.row --></div><div class="container py-14 py-md-16"><div><div class="col-lg-6"><div>
+</script>
+<img src="https://ooo.0x0.ooo/2025/06/07/OsmsLN.jpg" class="c64044"/>
+                <div id="SMZH16" class="c64569">使命召唤16：现代战争</div>
+<script>
+    var sectionA = document.getElementById('SMZH16');
+    sectionA.addEventListener('click', function() {
+        var textarea = document.createElement('textarea');
+        textarea.value = "保存到自己网盘再下载,避免下载失败\n" +
+            "迅雷网盘: https://pan.xunlei.com/s/VOS3qdRoBacSK-Fu5tus2sSUA1?pwd=hba2#\n" + 
+            "夸克网盘: https://pan.quark.cn/s/f2d24904bc48";
+        textarea.rows = 6;
+        textarea.cols = 88;
+        textarea.readOnly = true;
+        textarea.style.position = 'fixed';
+        textarea.style.top = '50%';
+        textarea.style.left = '50%';
+        textarea.style.transform = 'translate(-50%, -50%)';
+        textarea.style.zIndex = '1000';
+        textarea.style.border = '1px solid #ccc';
+        textarea.style.padding = '10px';
+        textarea.style.backgroundColor = '#f9f9f9';
+        textarea.style.boxShadow = '0 0 10px rgba0, 0, 0, 0.2';
+        textarea.style.fontFamily = 'Arial, sans-serif';
+        textarea.style.fontSize = '14px';
+        textarea.style.resize = 'none';
+        textarea.style.outline = 'none';
+
+        document.body.appendChild(textarea);
+
+        var closeButton = document.createElement('button');
+        closeButton.textContent = '关闭';
+        closeButton.style.position = 'fixed';
+        closeButton.style.top = '60%';
+        closeButton.style.left = '50%';
+        closeButton.style.transform = 'translate(-50%, -50%)';
+        closeButton.style.zIndex = '1001';
+        closeButton.style.padding = '5px 10px';
+        closeButton.style.backgroundColor = '#ff4d4d';
+        closeButton.style.color = 'white';
+        closeButton.style.border = 'none';
+        closeButton.style.borderRadius = '5px';
+        closeButton.style.cursor = 'pointer';
+
+        closeButton.addEventListener('click', function() {
+            document.body.removeChild(textarea);
+            document.body.removeChild(closeButton);
+        });
+
+        document.body.appendChild(closeButton);
+    });
+</script>
+<!--/.card --></div><!--/column --></div><!-- /.row --><!--/.row --></div><div class="container py-14 py-md-16"><div><div class="col-lg-6"><div>
           </div><h3 id="T" class="display-5">T
           </h3></div><!-- /column --><!-- /column --></div><div class="row row-cols-2 row-cols-md-3 row-cols-xl-5 gx-lg-6 gy-6 justify-content-center"><div class="col"><img src="https://pic.imgdb.cn/item/672f7501d29ded1a8ca614fb.jpg" class="c64044"/><div id="TS" class="c64569">逃生
           </div>
@@ -17569,7 +17980,58 @@
 
         document.body.appendChild(closeButton);
     });
-</script><!--/.card --></div><!--/column --><div class="col"><img src="https://pic.imgdb.cn/item/672f7530d29ded1a8ca64007.jpg" class="c64044"/><div id="WRSK" class="c64569">无人深空
+</script>
+<img src="https://ooo.0x0.ooo/2025/06/07/OsmVXC.jpg" class="c64044"/>
+                <div id="WHSBAWLDYL" class="c64569">污痕圣杯：阿瓦隆的陨落</div>
+<script>
+    var sectionA = document.getElementById('WHSBAWLDYL');
+    sectionA.addEventListener('click', function() {
+        var textarea = document.createElement('textarea');
+        textarea.value = "保存到自己网盘再下载,避免下载失败\n" +
+            "迅雷网盘: https://pan.xunlei.com/s/VORuz6kF_HUwGiCaWrlX1mtvA1?pwd=mn9e#\n" + 
+            "夸克网盘: https://pan.quark.cn/s/2d9882804374";
+        textarea.rows = 6;
+        textarea.cols = 88;
+        textarea.readOnly = true;
+        textarea.style.position = 'fixed';
+        textarea.style.top = '50%';
+        textarea.style.left = '50%';
+        textarea.style.transform = 'translate(-50%, -50%)';
+        textarea.style.zIndex = '1000';
+        textarea.style.border = '1px solid #ccc';
+        textarea.style.padding = '10px';
+        textarea.style.backgroundColor = '#f9f9f9';
+        textarea.style.boxShadow = '0 0 10px rgba0, 0, 0, 0.2';
+        textarea.style.fontFamily = 'Arial, sans-serif';
+        textarea.style.fontSize = '14px';
+        textarea.style.resize = 'none';
+        textarea.style.outline = 'none';
+
+        document.body.appendChild(textarea);
+
+        var closeButton = document.createElement('button');
+        closeButton.textContent = '关闭';
+        closeButton.style.position = 'fixed';
+        closeButton.style.top = '60%';
+        closeButton.style.left = '50%';
+        closeButton.style.transform = 'translate(-50%, -50%)';
+        closeButton.style.zIndex = '1001';
+        closeButton.style.padding = '5px 10px';
+        closeButton.style.backgroundColor = '#ff4d4d';
+        closeButton.style.color = 'white';
+        closeButton.style.border = 'none';
+        closeButton.style.borderRadius = '5px';
+        closeButton.style.cursor = 'pointer';
+
+        closeButton.addEventListener('click', function() {
+            document.body.removeChild(textarea);
+            document.body.removeChild(closeButton);
+        });
+
+        document.body.appendChild(closeButton);
+    });
+</script>
+<!--/.card --></div><!--/column --><div class="col"><img src="https://pic.imgdb.cn/item/672f7530d29ded1a8ca64007.jpg" class="c64044"/><div id="WRSK" class="c64569">无人深空
           </div>
 <script>
     var sectionA = document.getElementById('WRSK');
@@ -19071,7 +19533,8 @@
     sectionA.addEventListener('click', function() {
         var textarea = document.createElement('textarea');
         textarea.value = "保存到自己网盘再下载,避免下载失败\n" +
-            "迅雷网盘: https://pan.xunlei.com/s/VOOeNd4DFPUtXUKuIOgFM0jTA1?pwd=pkcx\n";
+            "迅雷网盘: https://pan.xunlei.com/s/VOOeNd4DFPUtXUKuIOgFM0jTA1?pwd=pkcx\n" + 
+            "夸克网盘: https://pan.quark.cn/s/d5b6255b67ae";
         textarea.rows = 6;
         textarea.cols = 88;
         textarea.readOnly = true;
